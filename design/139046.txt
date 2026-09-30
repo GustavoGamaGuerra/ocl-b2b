@@ -1,0 +1,210 @@
+const imgBeta = "https://www.figma.com/api/mcp/asset/633acdd2-3da8-40b3-add4-1a3335fb90cc.svg";
+const imgGroup18646 = "https://www.figma.com/api/mcp/asset/61e05c6d-8301-4daa-95bf-f072317db801.svg";
+const imgRamp = "https://www.figma.com/api/mcp/asset/54824a2f-3dec-499b-95ca-25c9c90ba649.svg";
+const imgFrame18647 = "https://www.figma.com/api/mcp/asset/5ceac46d-4c35-4c31-b0bd-2a33ad9081d5.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/fef9e803-3ca9-4fa8-a723-eb9e3256e038.svg";
+const imgInfoCircle = "https://www.figma.com/api/mcp/asset/98b3c667-2531-4d82-a265-ab677570b8a7.svg";
+
+type OnchainRampBetaLogoProps = {
+  className?: string;
+  property1?: "Default";
+};
+
+function OnchainRampBetaLogo({ className, property1 = "Default" }: OnchainRampBetaLogoProps) {
+  return (
+    <div className={className || "content-stretch flex flex-col h-[25.84px] items-start relative w-[178.23px]"} data-node-id="13151:10905">
+      <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="13151:10909">
+        <div className="bg-white border-[#1e84eb] border-[0.5px] border-solid col-1 content-stretch flex flex-col h-[25.777px] items-center justify-center ml-[150.01px] mt-0 pl-[20.635px] pr-[3.684px] py-[2.794px] relative rounded-[6px] row-1 w-[28.224px]" data-node-id="13151:10910">
+          <div className="h-[15.701px] relative shrink-0 w-[4.633px]" data-node-id="13151:10911" data-name="BETA">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgBeta} />
+          </div>
+        </div>
+        <div className="col-1 h-[16.467px] ml-0 mt-[4.69px] relative row-1 w-[99.854px]" data-node-id="13151:10916">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup18646} />
+        </div>
+        <div className="bg-[#1e84eb] border-[#1e84eb] border-[1.122px] border-solid col-1 content-stretch flex flex-col h-[25.84px] items-center justify-center ml-[107.33px] mt-0 p-[7.48px] relative rounded-[6px] row-1 w-[59.971px]" data-node-id="13151:10926">
+          <div className="h-[10.88px] relative shrink-0 w-[43.714px]" data-node-id="13151:10927" data-name="Ramp">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgRamp} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Footer({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex items-end justify-between relative w-[1440px]"} data-node-id="7746:22835" data-name="Footer">
+      <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px px-[32px] py-[10px] relative" data-node-id="7746:22836">
+        <div className="content-stretch flex gap-[40px] items-center relative shrink-0" data-node-id="7746:22837">
+          <div className="content-stretch flex items-center justify-center p-[10px] relative shrink-0" data-node-id="7746:22838">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#8899a8] text-[10px] text-right whitespace-nowrap" data-node-id="7746:22839">
+              Terms of Service
+            </p>
+          </div>
+          <div className="content-stretch flex items-center justify-center p-[10px] relative shrink-0" data-node-id="7746:22840">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#8899a8] text-[10px] text-right whitespace-nowrap" data-node-id="7746:22841">
+              Privacy Policy
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex items-center p-[20px] relative shrink-0" data-node-id="7746:22842">
+        <div className="relative shrink-0 size-[48px]" data-node-id="7746:22843">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame18647} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function WireframeFullHostedWebpage() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="13797:139046" data-name="Wireframe - full hosted webpage">
+      <Footer className="absolute content-stretch flex items-end justify-between left-0 top-[722px] w-[1440px]" />
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute content-stretch flex flex-col items-center left-1/2 top-[calc(50%-0.12px)] w-[472px]" data-node-id="13797:139048">
+        <div className="content-stretch flex flex-col items-center relative shrink-0 w-[472px]" data-node-id="13797:139049">
+          <div className="bg-white border border-[#eff1f8] border-solid content-stretch flex flex-col gap-[32px] items-center justify-center p-[32px] relative rounded-[16px] shrink-0 w-full" data-node-id="13797:139050">
+            <a className="content-stretch cursor-pointer flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="13797:139051">
+              <div className="bg-white content-stretch flex flex-col items-center px-[19px] relative rounded-[6px] shrink-0 w-[408px]" data-node-id="13797:139052">
+                <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="13797:139053">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px relative" data-node-id="13797:139054">
+                    <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[24px] not-italic relative shrink-0 text-[#232f46] text-[16px] text-center w-full" data-node-id="13797:139055">
+                      Digital asset details
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="13797:139056">
+                <div className="content-stretch flex flex-col h-[80px] items-start relative shrink-0 w-full" data-node-id="13797:139057" data-name="Input">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-h-px relative w-full" data-node-id="13797:139058">
+                    <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="13797:139059" data-name="Label">
+                      <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#232f46] text-[12px] text-left whitespace-nowrap" data-node-id="13797:139060">
+                        Network
+                      </p>
+                    </div>
+                    <div className="bg-white border border-[#dfe4ea] border-solid content-stretch flex flex-[1_0_0] gap-[10px] items-center min-h-px pl-[20px] pr-[16px] py-[12px] relative rounded-[15px] w-full" data-node-id="13797:139061" data-name="Placeholder">
+                      <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I13797:139061;4885:2043">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#8899a8] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:139061;4885:2044">
+                          Select
+                        </p>
+                      </div>
+                      <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="I13797:139061;4885:2045" data-name="chevron-down">
+                        <div className="absolute inset-[28.63%_10.51%_28.75%_10.51%]" data-node-id="I13797:139061;4885:2045;310:4574" data-name="Group">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="13797:139062">
+                  <div className="content-stretch flex flex-[1_0_0] flex-col h-[80px] items-start min-w-px relative" data-node-id="13797:139063" data-name="Input">
+                    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-h-px relative w-full" data-node-id="I13797:139063;310:12031">
+                      <div className="content-stretch flex items-start relative shrink-0 w-[250px]" data-node-id="I13797:139063;310:12032" data-name="Label">
+                        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#232f46] text-[12px] text-left whitespace-nowrap" data-node-id="I13797:139063;310:12033">
+                          Address
+                        </p>
+                      </div>
+                      <div className="bg-white border border-[#e8eef7] border-solid content-stretch flex flex-[1_0_0] gap-[10px] items-center min-h-px pl-[20px] pr-[16px] py-[12px] relative rounded-[15px] w-full" data-node-id="I13797:139063;310:12034" data-name="Placeholder">
+                        <div className="content-stretch flex flex-[1_0_0] items-center min-w-px relative" data-node-id="I13797:139063;310:12036">
+                          <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#8899a8] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:139063;310:12037">
+                            i.e. 0xeef...d3555
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="content-stretch flex flex-col gap-[8px] items-end relative shrink-0 w-full" data-node-id="13797:139064">
+                  <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="13797:139065" data-name="Label">
+                    <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="13797:139066">
+                      <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[#232f46] text-[12px] text-left whitespace-nowrap" data-node-id="13797:139067">
+                        Tax
+                      </p>
+                      <div className="relative shrink-0 size-[12px]" data-node-id="13797:139068" data-name="Info circle">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfoCircle} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="content-stretch flex gap-[16px] items-start relative shrink-0 w-full" data-node-id="13797:139069">
+                    <div className="content-center flex flex-wrap gap-[10px] items-center relative shrink-0" data-node-id="13797:139070" data-name="Check Box">
+                      <div className="bg-white border border-[#dfe4ea] border-solid relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I13797:139070;310:11547" />
+                      <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#111928] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:139070;310:11548">
+                        Buy tax
+                      </p>
+                    </div>
+                    <div className="content-center flex flex-wrap gap-[10px] items-center relative shrink-0" data-node-id="13797:139071" data-name="Check Box">
+                      <div className="bg-white border border-[#dfe4ea] border-solid relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I13797:139071;310:11547" />
+                      <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#111928] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:139071;310:11548">
+                        Sell tax
+                      </p>
+                    </div>
+                    <div className="content-center flex flex-wrap gap-[10px] items-center relative shrink-0" data-node-id="13797:139072" data-name="Check Box">
+                      <div className="bg-white border border-[#dfe4ea] border-solid relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I13797:139072;310:11547" />
+                      <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#111928] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:139072;310:11548">
+                        N/A
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <div className="bg-[#8fc2f4] content-stretch flex items-center justify-center px-[28px] py-[13px] relative rounded-[15px] shrink-0 w-full" data-node-id="13797:139073" data-name="Button">
+              <div className="[word-break:break-word] flex flex-col font-['Inter:Medium'] font-medium justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-center text-white whitespace-nowrap" data-node-id="I13797:139073;310:10149">
+                <p className="leading-[24px]">Complete sign up</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="13797:139074">
+              <div className="content-center flex flex-wrap gap-[10px] items-center relative shrink-0 w-full" data-node-id="13797:139075" data-name="Check Box">
+                <div className="bg-white border border-[#dfe4ea] border-solid relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I13797:139075;310:11547" />
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[0] min-w-px not-italic relative text-[#8899a8] text-[0px]" data-node-id="I13797:139075;310:11548">
+                  <span className="leading-[16px] text-[10px]">I</span>
+                  <span className="leading-[16px] text-[10px]">{` agree to `}</span>
+                  <span className="font-['Inter:Bold_Italic'] font-bold italic leading-[16px] text-[10px]">ONCHAIN®</span>
+                  <span className="leading-[16px] text-[10px]">{` Terms and Conditions and Privacy Policy.`}</span>
+                </p>
+              </div>
+              <div className="content-center flex flex-wrap gap-[10px] items-center relative shrink-0 w-full" data-node-id="13797:139076" data-name="Check Box">
+                <div className="bg-white border border-[#dfe4ea] border-solid relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I13797:139076;310:11547" />
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[0] min-w-px not-italic relative text-[#8899a8] text-[10px]" data-node-id="I13797:139076;310:11548">
+                  <span className="leading-[16px]">I</span>
+                  <span className="leading-[16px]">{` agree `}</span>
+                  <span className="leading-[16px]">{`to `}</span>
+                  <span className="font-['Inter:Bold_Italic'] font-bold italic leading-[16px]">{`ONCHAIN® `}</span>
+                  <span className="leading-[16px]">Token Agreement and Terms of Service.</span>
+                </p>
+              </div>
+              <div className="content-center flex flex-wrap gap-[10px] items-center relative shrink-0 w-full" data-node-id="13797:139077" data-name="Check Box">
+                <div className="bg-white border border-[#dfe4ea] border-solid relative rounded-[4px] shrink-0 size-[20px]" data-node-id="I13797:139077;310:11547" />
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[0] min-w-px not-italic relative text-[#8899a8] text-[0px] whitespace-pre-wrap" data-node-id="I13797:139077;310:11548">
+                  <span className="leading-[16px] text-[10px]">{`Yes! I’d love to receive updates, exclusive offers, and news from `}</span>
+                  <span className="font-['Inter:Bold_Italic'] font-bold italic leading-[16px] text-[10px]">ONCHAIN®</span>
+                  <span className="leading-[16px] text-[10px]">{`. `}</span>
+                  <span className="leading-[16px] text-[10px]">
+                    <br aria-hidden />
+                  </span>
+                  <span className="leading-[16px] text-[10px]">(You can unsubscribe anytime.)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex flex-col h-[94px] items-start justify-center left-0 px-[56px] py-[8px] top-0 w-[1440px]" data-node-id="13797:139078">
+        <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="13797:139079">
+          <OnchainRampBetaLogo className="content-stretch flex flex-col h-[25.84px] items-start relative shrink-0 w-[178.23px]" />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Secondary Text Color: #8899A8, White: #FFFFFF, Secondary Shades/300: #BDC8E4, Primary Text Color: #232F46, Desktop/Body Medium/SemiBold: Font(family: "Inter", style: Semi Bold, size: 16, weight: 600, lineHeight: 24, letterSpacing: 0), Desktop/Body Extra Small Text/Medium: Font(family: "Inter", style: Medium, size: 12, weight: 500, lineHeight: 20, letterSpacing: 0), Desktop/Body Medium/Regular: Font(family: "Inter", style: Regular, size: 16, weight: 400, lineHeight: 24, letterSpacing: 0), Stroke: #DFE4EA, Secondary Shades/100: #E8EEF7, White/White: #FFFFFF, Dark/Dark: #111928, Desktop/Body Medium/Medium: Font(family: "Inter", style: Medium, size: 16, weight: 500, lineHeight: 24, letterSpacing: 0), Light/80: #EFF1F8, Primary Color: #1E84EB.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

@@ -1,0 +1,291 @@
+const imgLogoAcme = "https://www.figma.com/api/mcp/asset/8e789e6d-557d-421e-a669-c6757eb39d61.svg";
+const imgGroup = "https://www.figma.com/api/mcp/asset/975b4fc1-dcf0-429c-a0ba-c30b364fac5f.svg";
+const imgClose = "https://www.figma.com/api/mcp/asset/a589d50f-3425-4ce4-8919-9d608b88e873.svg";
+const imgGroup1 = "https://www.figma.com/api/mcp/asset/6af7e90c-0998-4aad-960a-4edbbee86e2b.svg";
+const imgLine1 = "https://www.figma.com/api/mcp/asset/fdab2978-b8ad-4faa-b0a7-dcedd9e7c485.svg";
+const imgLine2 = "https://www.figma.com/api/mcp/asset/0065a84b-6b29-44aa-9766-0de6b6ea928f.svg";
+const imgFrame18647 = "https://www.figma.com/api/mcp/asset/5af4a576-8035-4e6d-a79b-0c0be9392a2b.svg";
+
+type AvatarProps = {
+  className?: string;
+  badge?: "OFF";
+  size?: "md";
+  variant?: "Initials";
+};
+
+function Avatar({ className, badge = "OFF", size = "md", variant = "Initials" }: AvatarProps) {
+  return (
+    <div className={className || "bg-[#1e84eb] relative rounded-[200px] size-[42px]"} data-node-id="13702:128713">
+      <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold justify-center leading-[0] left-[calc(50%+0.5px)] not-italic text-[16px] text-center text-white top-1/2 whitespace-nowrap" data-node-id="13702:128732">
+        <p className="leading-[24px]">TG</p>
+      </div>
+    </div>
+  );
+}
+
+function LogoAcme({ className }: { className?: string }) {
+  return (
+    <div className={className || "relative size-[39px]"} data-node-id="13249:11747" data-name="Logo ACME">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgLogoAcme} />
+    </div>
+  );
+}
+
+export default function WireframeFullHostedWebpage() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="13797:140283" data-name="Wireframe - full hosted webpage">
+      <div className="absolute content-stretch flex flex-col h-[870px] items-start justify-between left-0 top-0 w-[1440px]" data-node-id="13797:140285">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px relative w-full" data-node-id="13797:140286">
+          <div className="bg-white content-stretch flex flex-col h-[81px] items-start relative shrink-0 w-full" data-node-id="13797:140287" data-name="Horizontal Menus">
+            <div className="bg-white border-[#e8eef7] border-b border-solid content-stretch flex flex-[1_0_0] flex-col items-start min-h-px px-[72px] py-[18px] relative w-[1440px]" data-node-id="13797:140288" data-name="Horizontal Menus">
+              <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-node-id="I13797:140288;5121:489">
+                <div className="content-stretch flex items-center relative shrink-0" data-node-id="I13797:140288;5121:490">
+                  <div className="content-stretch flex gap-[16px] items-center relative shrink-0" data-node-id="I13797:140288;5121:491">
+                    <LogoAcme className="relative shrink-0 size-[39px]" />
+                    <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[#232f46] text-[18px] whitespace-nowrap" data-node-id="I13797:140288;5121:495">
+                      ACME Protocol
+                    </p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[21px] items-center relative shrink-0" data-node-id="I13797:140288;5121:506">
+                  <div className="content-stretch flex gap-[32px] items-center relative shrink-0" data-node-id="I13797:140288;5121:507">
+                    <div className="flex flex-row items-center self-stretch" data-node-id="I13797:140288;5138:787">
+                      <div className="content-stretch flex flex-col h-full items-start justify-center relative shrink-0">
+                        <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[16px] not-italic relative shrink-0 text-[#8899a8] text-[10px] text-center whitespace-nowrap" data-node-id="I13797:140288;5138:788">
+                          Renews in:
+                        </p>
+                        <div className="content-stretch flex items-center relative shrink-0 w-full" data-node-id="I13797:140288;5138:789">
+                          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[20px] not-italic relative shrink-0 text-[#232f46] text-[12px] text-center whitespace-nowrap" data-node-id="I13797:140288;5138:790">
+                            12 days
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="content-stretch flex items-center relative shrink-0" data-node-id="I13797:140288;5122:605">
+                      <div className="border border-[#d6deef] border-solid content-stretch flex gap-[4px] h-[36px] items-center justify-center px-[16px] py-[6px] relative rounded-[15px] shrink-0" data-node-id="I13797:140288;5333:2204" data-name="Button With Text & Icon Small">
+                        <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[22px] not-italic relative shrink-0 text-[#232f46] text-[14px] text-center whitespace-nowrap" data-node-id="I13797:140288;5333:2204;5333:2116">
+                          Ramp link
+                        </p>
+                        <div className="relative shrink-0 size-[16px]" data-node-id="I13797:140288;5333:2204;5333:2117" data-name="ContentCopyFilled" />
+                      </div>
+                    </div>
+                    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I13797:140288;5121:517">
+                      <div className="[word-break:break-word] col-1 content-stretch flex flex-col items-start ml-0 mt-0 not-italic relative row-1 whitespace-nowrap" data-node-id="I13797:140288;5121:518">
+                        <p className="font-['Inter:Medium'] font-medium leading-[24px] mb-[-1px] relative shrink-0 text-[#232f46] text-[16px]" data-node-id="I13797:140288;5121:519">
+                          Gustavo Guerra
+                        </p>
+                        <p className="font-['Inter:Regular'] font-normal leading-[22px] relative shrink-0 text-[#8899a8] text-[14px]" data-node-id="I13797:140288;5121:520">
+                          Administrator
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I13797:140288;5121:521">
+                    <div className="col-1 content-stretch flex items-center ml-0 mt-0 relative row-1" data-node-id="I13797:140288;5121:522">
+                      <Avatar className="bg-[#1e84eb] relative rounded-[200px] shrink-0 size-[42px]" />
+                    </div>
+                  </div>
+                  <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="I13797:140288;5326:1012">
+                    <div className="col-1 ml-0 mt-0 relative rounded-[10px] row-1 size-[30px]" data-node-id="I13797:140288;5326:1013" />
+                    <button className="block col-1 cursor-pointer ml-[7px] mt-[7px] overflow-clip relative row-1 size-[16px]" data-node-id="I13797:140288;5326:1014" data-name="chevron-down">
+                      <div className="absolute inset-[28.63%_10.51%_28.75%_10.51%]" data-node-id="I13797:140288;5326:1014;310:4574" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-h-px pt-[24px] px-[52px] relative w-full" data-node-id="13797:140289">
+            <div className="content-stretch flex flex-[1_0_0] items-start min-h-px relative w-full" data-node-id="13797:140290">
+              <div className="content-stretch flex flex-[1_0_0] h-full items-start min-w-px relative" data-node-id="13797:140291">
+                <div className="content-stretch flex flex-[1_0_0] h-full items-start min-w-px relative" data-node-id="13797:140292">
+                  <div className="bg-[#fafafa] content-stretch flex flex-col gap-[16px] h-full items-center p-[16px] relative rounded-bl-[20px] rounded-tl-[20px] shrink-0" data-node-id="13797:140293" data-name="Sidebar">
+                    <div className="content-stretch flex items-center justify-between px-[8px] relative shrink-0 w-full" data-node-id="13797:140307">
+                      <div className="content-stretch flex items-center p-[8px] relative rounded-[6px] shrink-0" data-node-id="13797:140308">
+                        <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[26px] not-italic relative shrink-0 text-[#1e84eb] text-[18px] whitespace-nowrap" data-node-id="13797:140309">
+                          Settings
+                        </p>
+                      </div>
+                      <div className="relative shrink-0 size-[16px]" data-node-id="13797:140310" data-name="close">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgClose} />
+                      </div>
+                    </div>
+                    <div className="content-stretch flex flex-col items-start relative shrink-0 w-[370px]" data-node-id="13797:140311">
+                      <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full" data-node-id="13797:140312">
+                        <a className="content-stretch cursor-pointer flex items-center justify-between min-h-[48px] px-[16px] py-[4px] relative rounded-[15px] shrink-0 w-full" data-node-id="13797:140313" data-name="Sign-up List">
+                          <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-node-id="I13797:140313;5052:2552">
+                            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#232f46] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:140313;5052:2554">
+                              Project info
+                            </p>
+                          </div>
+                          <div className="content-stretch flex items-center relative shrink-0" data-node-id="I13797:140313;5052:2555">
+                            <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="I13797:140313;5052:2556" data-name="chevron-right">
+                              <div className="absolute inset-[10.51%_28.79%_10.47%_28.79%]" data-node-id="I13797:140313;5052:2556;310:4592" data-name="Group">
+                                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <a className="content-stretch cursor-pointer flex items-center justify-between min-h-[48px] px-[16px] py-[4px] relative rounded-[15px] shrink-0 w-full" data-node-id="13797:140314" data-name="Sign-up List">
+                          <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-node-id="I13797:140314;5052:2552">
+                            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#232f46] text-[16px] text-left whitespace-nowrap" data-node-id="I13797:140314;5052:2554">
+                              Digital asset
+                            </p>
+                          </div>
+                          <div className="content-stretch flex items-center relative shrink-0" data-node-id="I13797:140314;5052:2555">
+                            <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="I13797:140314;5052:2556" data-name="chevron-right">
+                              <div className="absolute inset-[10.51%_28.79%_10.47%_28.79%]" data-node-id="I13797:140314;5052:2556;310:4592" data-name="Group">
+                                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                              </div>
+                            </div>
+                          </div>
+                        </a>
+                        <div className="bg-[#f3f4f6] content-stretch flex items-center justify-between min-h-[48px] px-[16px] py-[4px] relative rounded-[15px] shrink-0 w-full" data-node-id="13797:140315" data-name="Sign-up List">
+                          <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-node-id="I13797:140315;5114:827">
+                            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#232f46] text-[16px] whitespace-nowrap" data-node-id="I13797:140315;5114:829">{`Billing `}</p>
+                          </div>
+                          <div className="content-stretch flex items-center relative shrink-0" data-node-id="I13797:140315;5114:830">
+                            <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="I13797:140315;5114:831" data-name="chevron-right">
+                              <div className="absolute inset-[10.51%_28.79%_10.47%_28.79%]" data-node-id="I13797:140315;5114:831;310:4592" data-name="Group">
+                                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="content-stretch flex items-center justify-between min-h-[48px] px-[16px] py-[4px] relative rounded-[15px] shrink-0 w-full" data-node-id="13797:140316" data-name="Sign-up List">
+                          <div className="content-stretch flex gap-[8px] items-center justify-center relative shrink-0" data-node-id="I13797:140316;5052:2552">
+                            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[#232f46] text-[16px] whitespace-nowrap" data-node-id="I13797:140316;5052:2554">
+                              Deactivate account
+                            </p>
+                          </div>
+                          <div className="content-stretch flex items-center relative shrink-0" data-node-id="I13797:140316;5052:2555">
+                            <div className="overflow-clip relative shrink-0 size-[16px]" data-node-id="I13797:140316;5052:2556" data-name="chevron-right">
+                              <div className="absolute inset-[10.51%_28.79%_10.47%_28.79%]" data-node-id="I13797:140316;5052:2556;310:4592" data-name="Group">
+                                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-[rgba(250,250,250,0.7)] border-[#e8eef7] border-l border-solid content-stretch flex flex-[1_0_0] flex-col gap-[8px] h-full items-start min-w-px p-[16px] relative rounded-br-[20px] rounded-tr-[20px]" data-node-id="13797:140317" data-name="Sidebar">
+                    <div className="content-stretch flex flex-col gap-[16px] items-start pb-[8px] relative shrink-0 w-full" data-node-id="13797:140331">
+                      <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="13797:140332">
+                        <div className="content-stretch flex items-center p-[8px] relative rounded-[6px] shrink-0" data-node-id="13797:140333">
+                          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[30px] not-italic relative shrink-0 text-[#232f46] text-[24px] whitespace-nowrap" data-node-id="13797:140334">{`Billing `}</p>
+                        </div>
+                      </div>
+                      <div className="content-stretch flex gap-[16px] items-center relative shrink-0 w-full" data-node-id="13797:140335">
+                        <div className="absolute h-0 left-0 top-[40px] w-[902px]" data-node-id="13797:140336">
+                          <div className="absolute inset-[-1px_0_0_0]">
+                            <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                          </div>
+                        </div>
+                        <div className="content-stretch flex flex-col h-[48px] items-center py-[8px] relative shrink-0" data-node-id="13797:140337" data-name="text button">
+                          <div className="content-stretch flex flex-col gap-[6px] items-center relative shrink-0" data-node-id="I13797:140337;5178:1419">
+                            <div className="content-stretch flex items-center justify-center px-[9px] relative shrink-0" data-node-id="I13797:140337;5178:1431">
+                              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[#232f46] text-[18px] text-center whitespace-nowrap" data-node-id="I13797:140337;5178:1415">
+                                Plan
+                              </p>
+                            </div>
+                            <div className="h-0 relative shrink-0 w-full" data-node-id="I13797:140337;5178:1418">
+                              <div className="absolute inset-[-1px_0_0_0]">
+                                <img alt="" className="block max-w-none size-full" src={imgLine2} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a className="content-stretch cursor-pointer flex flex-col h-[48px] items-center py-[8px] relative shrink-0" data-node-id="13797:140338" data-name="text button">
+                          <div className="content-stretch flex flex-col gap-[6px] items-center relative shrink-0" data-node-id="I13797:140338;5178:1465">
+                            <div className="content-stretch flex items-center justify-center px-[9px] relative shrink-0" data-node-id="I13797:140338;5178:1466">
+                              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[#8899a8] text-[18px] text-center whitespace-nowrap" data-node-id="I13797:140338;5178:1467">
+                                Payment details
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                        <a className="content-stretch cursor-pointer flex flex-col h-[48px] items-center py-[8px] relative shrink-0" data-node-id="13797:140339" data-name="text button">
+                          <div className="content-stretch flex flex-col gap-[6px] items-center relative shrink-0" data-node-id="I13797:140339;5178:1465">
+                            <div className="content-stretch flex items-center justify-center px-[9px] relative shrink-0" data-node-id="I13797:140339;5178:1466">
+                              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[#8899a8] text-[18px] text-center whitespace-nowrap" data-node-id="I13797:140339;5178:1467">
+                                Transactions
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div className="content-stretch flex flex-col items-start px-[8px] relative shrink-0 w-full" data-node-id="13797:140340">
+                        <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="13797:140341">
+                          <div className="bg-white border border-[#dfe4ea] border-solid content-stretch flex flex-col gap-[16px] items-center overflow-clip p-[30px] relative rounded-[20px] shadow-[0px_39px_23px_-27px_rgba(0,0,0,0.04)] shrink-0 w-[286px]" data-node-id="13797:140342" data-name="Pricing Grid">
+                            <div className="content-stretch flex flex-col items-start relative shrink-0 w-[213px]" data-node-id="13797:140343">
+                              <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="13797:140344">
+                                <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0" data-node-id="13797:140345">
+                                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[#1e84eb] text-[18px] whitespace-nowrap" data-node-id="13797:140346">
+                                    Starter
+                                  </p>
+                                  <div className="content-stretch flex gap-[2px] items-end relative shrink-0" data-node-id="13797:140347">
+                                    <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[48px] not-italic relative shrink-0 text-[#232f46] text-[40px] whitespace-nowrap" data-node-id="13797:140348">
+                                      $200
+                                    </p>
+                                    <div className="content-stretch flex items-end pb-[5px] relative shrink-0" data-node-id="13797:140349">
+                                      <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[22px] not-italic relative shrink-0 text-[#8899a8] text-[14px] whitespace-nowrap" data-node-id="13797:140350">
+                                        / month
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="bg-[#f3f5fa] content-stretch flex gap-[8px] h-[50px] items-center justify-center px-[24px] py-[12px] relative rounded-[15px] shrink-0 w-full" data-node-id="13797:140351" data-name="Button With Text & Icon">
+                              <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[24px] not-italic relative shrink-0 text-[#d6deef] text-[16px] text-center whitespace-nowrap" data-node-id="I13797:140351;310:10513">
+                                Selected
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="13797:140352">
+          <div className="bg-white col-1 content-stretch flex flex-col items-start justify-center ml-0 mt-[36px] px-[52px] py-[10px] relative row-1 w-[1440px]" data-node-id="13797:140353">
+            <div className="content-stretch flex gap-[40px] items-center relative shrink-0" data-node-id="13797:140354">
+              <div className="content-stretch flex items-center justify-center p-[10px] relative shrink-0" data-node-id="13797:140355">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#8899a8] text-[10px] text-right whitespace-nowrap" data-node-id="13797:140356">
+                  Terms and Conditions
+                </p>
+              </div>
+              <div className="content-stretch flex items-center justify-center p-[10px] relative shrink-0" data-node-id="13797:140357">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#8899a8] text-[10px] text-right whitespace-nowrap" data-node-id="13797:140358">
+                  Privacy Policy
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-1 content-stretch flex items-center ml-[1352px] mt-0 p-[20px] relative row-1" data-node-id="13797:140359">
+            <div className="relative shrink-0 size-[48px]" data-node-id="13797:140360">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame18647} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Primary Color: #1E84EB, White: #FFFFFF, Primary Text Color: #232F46, Desktop/Body Large/SemiBold: Font(family: "Inter", style: Semi Bold, size: 18, weight: 600, lineHeight: 26, letterSpacing: 0), Secondary Text Color: #8899A8, Desktop/Body Extra XS Text/Regular: Font(family: "Inter", style: Regular, size: 10, weight: 400, lineHeight: 16, letterSpacing: 0), Desktop/Body Extra Small Text/Medium: Font(family: "Inter", style: Medium, size: 12, weight: 500, lineHeight: 20, letterSpacing: 0), Desktop/Body Small/Medium: Font(family: "Inter", style: Medium, size: 14, weight: 500, lineHeight: 22, letterSpacing: 0), Secondary Shades/200: #D6DEEF, Desktop/Body Medium/Medium: Font(family: "Inter", style: Medium, size: 16, weight: 500, lineHeight: 24, letterSpacing: 0), Desktop/Body Small/Regular: Font(family: "Inter", style: Regular, size: 14, weight: 400, lineHeight: 22, letterSpacing: 0), White/White: #FFFFFF, Body Medium/SemiBold: Font(family: "Inter", style: Semi Bold, size: 16, weight: 600, lineHeight: 24, letterSpacing: 0), Secondary Shades/100: #E8EEF7, Desktop/Body Large/Bold: Font(family: "Inter", style: Bold, size: 18, weight: 700, lineHeight: 26, letterSpacing: 0), Desktop/Body Medium/Regular: Font(family: "Inter", style: Regular, size: 16, weight: 400, lineHeight: 24, letterSpacing: 0), Gray 2: #F3F4F6, Gray 1: #FAFAFA, Desktop/Heading 6: Font(family: "Inter", style: Semi Bold, size: 24, weight: 600, lineHeight: 30, letterSpacing: 0), Desktop/Heading 3: Font(family: "Inter", style: Bold, size: 40, weight: 700, lineHeight: 48, letterSpacing: 0), Secondary Shades/50: #F3F5FA, Stroke: #DFE4EA, Secondary Shades/300: #BDC8E4.
+Images and SVGs will be stored as constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

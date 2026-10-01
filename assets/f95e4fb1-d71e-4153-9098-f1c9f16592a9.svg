@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Ethereum ETH">
+<circle id="Box" cx="12" cy="12" r="12" fill="#EDEFF1"/>
+<g id="Logo">
+<path id="6" d="M7.00004 12.1484L11.9986 15.0512V9.91627V4L7.00004 12.1484Z" fill="#898989"/>
+<path id="5" d="M11.9985 4V9.91627V15.0512L16.997 12.1484L11.9985 4Z" fill="#323232"/>
+<path id="4" d="M12 9.917L16.997 12.1484L12 15.0505V9.917Z" fill="#141414"/>
+<path id="3" d="M11.9985 9.91631L12 9.91681V15.0498L11.9985 15.0513L7 12.1484L11.9985 9.91631Z" fill="#373737"/>
+<path id="2" d="M7.00004 13.0796L11.9986 19.9999V15.981L7.00004 13.0796Z" fill="#898989"/>
+<path id="1" d="M11.9985 15.981V20L17 13.0797L11.9985 15.981Z" fill="#323232"/>
+</g>
+</g>
+</svg>
